@@ -88,7 +88,7 @@ public class RNFirebaseAdMobRewardedVideo implements RewardedVideoAdListener {
       activity.runOnUiThread(new Runnable() {
         @Override
         public void run() {
-           rewardedVideo.setCustomData(customData);
+          //  rewardedVideo.setCustomData(customData);
         }
       });
     }
